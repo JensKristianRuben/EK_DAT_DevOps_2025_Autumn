@@ -1,0 +1,28 @@
+node_modules# Node modules skal ikke kopieres til Docker image
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Miljøfiler
+.env
+.env.local
+.env.*.local
+
+# Git-filer
+.git
+.gitignore
+
+# Logs og midlertidige filer
+logs
+*.log
+tmp
+*.tmp
+
+# Docker selv
+Dockerfile
+docker-compose.yml
+
+# OS-specifikke filer
+.DS_Store
+Thumbs.db
